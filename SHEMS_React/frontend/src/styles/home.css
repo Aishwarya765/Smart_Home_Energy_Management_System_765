@@ -1,0 +1,388 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(135deg, #2b5cff, #3f7bff);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.signup-btn {
+  background: white;
+  color: #2b5cff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #2b5cff, #3f7bff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 18px;
+  max-width: 700px;
+}   
+
+.preview {
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.preview-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.preview-images img {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.clients {
+  padding: 100px 60px;
+  background: #f5f7ff;
+  text-align: center;
+}
+
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+}
+
+
+/* Home Page - Minimal Styles */
+.home-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+  padding: 40px 20px 60px;
+}
+
+/* Hero Section */
+.hero-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(0, 229, 255, 0.1);
+  color: #00e5ff;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 229, 255, 0.3);
+}
+
+.hero-section h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-section h1 span {
+  color: #00e5ff;
+}
+
+.hero-section p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #94a3b8;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cta-btn.primary {
+  background: #00e5ff;
+  color: #0F2027;
+}
+
+.cta-btn.primary:hover {
+  background: #00c4d4;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 229, 255, 0.3);
+}
+
+.cta-btn.secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.cta-btn.secondary:hover {
+  border-color: #00e5ff;
+  transform: translateY(-2px);
+}
+
+/* Quick Stats */
+.quick-stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  font-size: 36px;
+  color: white;
+  margin: 0 0 5px;
+}
+
+.stat p {
+  color: #94a3b8;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Value Props Section */
+.value-props {
+  max-width: 1000px;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.value-card {
+  padding: 40px 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-icon {
+  font-size: 40px;
+  color: #00e5ff;
+  margin-bottom: 20px;
+}
+
+.value-card h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.value-card p {
+  color: #94a3b8;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* CTA Banner */
+.cta-banner {
+  max-width: 800px;
+  margin: 60px auto 0;
+  padding: 0 20px;
+}
+
+.banner-card {
+  padding: 50px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(0, 229, 255, 0.1), rgba(0, 0, 0, 0.2));
+}
+
+.banner-card h2 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.banner-card .cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto 30px;
+  }
+  
+  .value-props {
+    grid-template-columns: 1fr;
+  }
+  
+  .quick-stats {
+    gap: 30px;
+  }
+  
+  .stat h3 {
+    font-size: 28px;
+  }
+}
+
+
+.home-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-content {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.title span {
+  color: #00e5ff;
+}
+
+.description {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 60px;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-box h3 {
+  font-size: 28px;
+  color: white;
+  margin: 0 0 5px;
+  font-weight: 600;
+}
+
+.stat-box p {
+  color: #94a3b8;
+  margin: 0;
+  font-size: 14px;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.category-card {
+  width: 150px;
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-icon {
+  font-size: 32px;
+  color: #00e5ff;
+  margin-bottom: 15px;
+}
+
+.category-card p {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .stats-container {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .categories-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .category-card {
+    width: 200px;
+  }
+}
