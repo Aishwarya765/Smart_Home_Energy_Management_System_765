@@ -42,9 +42,9 @@ MongoDB
  
 Installation & Setup
 1. Clone the Repository
-git clone https://github.com/HithashreeKV/smart-home-energy-management-system cd smart-home-energy
+git clone https://github.com/Aishwarya765/Smart_Home_Energy_Management_System_765 cd frontend
 2. Backend Setup (Spring Boot)
-cd backend
+cd shems
 Update application.properties: spring.datasource.url=jdbc:mysql://localhost:3306/energy_db spring.datasource.username=root spring.datasource.password=yourpassword
 Run the backend: mvn spring-boot:run
 Backend will run on: http://localhost:8080
