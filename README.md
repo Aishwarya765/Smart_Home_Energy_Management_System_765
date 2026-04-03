@@ -18,7 +18,7 @@ Spring Boot
 Spring Security
 REST APIs
 Database
-MySQL
+MongoDB
 Smart Home Energy Management System
 A full-stack web application designed to monitor, control, and optimize energy usage in smart homes. This system enables users to track real-time power consumption, manage devices remotely, and analyze historical energy data for better efficiency.
 🚀 Features
